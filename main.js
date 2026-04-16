@@ -135,16 +135,29 @@
 //==========================================
 //9. Sonning holati (If else chain)
 //Berilgan sonning musbat, manfiy yoki nolga tengligini aniqlang.
-let son = +prompt("son kiriting");
-if (son > 0) console.log("musbat son");
-else if (son < 0) console.log("manfiy son");
-else console.log("son nolga teng");
+//let son = +prompt("son kiriting");
+//if (son > 0) console.log("musbat son");
+//else if (son < 0) console.log("manfiy son");
+//else console.log("son nolga teng");
 
 //10. Type Checker (Switch + typeof)
 //O'zgaruvchining turini (type) tekshiring.
-
 //Agar number bo'lsa — "Son kiritdingiz".
-
 //Agar string bo'lsa — "Matn kiritdingiz".
-
 //Agar boolean bo'lsa — "Mantiqiy qiymat".
+// 10. Type Checker (Switch + typeof)
+// O'zgaruvchining turini (type) tekshiring.
+let input = prompt("biror narsa kiriting");
+switch (typeof input) {
+  case "number":
+    console.log("Son kiritdingiz");
+    break;
+  case "string":
+    console.log("Matn kiritdingiz");
+    break;
+  case "boolean":
+    console.log("Mantiqiy qiymat");
+    break;
+  default:
+    console.log("Boshqa turdagi ma'lumot");
+}
