@@ -11,31 +11,54 @@
 
 //5 — "A'lo"
 //Default: "Xato ball kiritildi"
-let ball = +prompt("bahoyingizni kiriting");
-switch (ball) {
-  case 1:
-    console.log("Yomon");
-    break;
-  case 2:
-    console.log("Qoniqarsiz");
-    break;
-  case 3:
-    console.log("Qoniqarli");
-    break;
-  case 4:
-    console.log("Yaxshi");
-    break;
-  case 5:
-    console.log("Alo");
-    break;
-  default:
-    console.log("Xato ball kiritildi");
-}
+//let ball = +prompt("bahoyingizni kiriting");
+//switch (ball) {
+// case 1:
+//   console.log("Yomon");
+//   break;
+// case 2:
+//   console.log("Qoniqarsiz");
+//   break;
+// case 3:
+//    console.log("Qoniqarli");
+//   break;
+//  case 4:
+//    console.log("Yaxshi");
+//   break;
+// case 5:
+//   console.log("Alo");
+//   break;
+// default:
+//   console.log("Xato ball kiritildi");}
+//=======================================
 //2. Fasllar (Switch case grouping)
 //Oy raqami kiritilganda (1-12) qaysi fasl ekanligini aniqlang.
-
 //Namuna: 12, 1, 2 bo'lsa — "Qish"; 3, 4, 5 bo'lsa — "Bahor" va hokazo.
-
+let son = +prompt("oy raqamini kiriting");
+switch (son) {
+  case 12:
+  case 1:
+  case 2:
+    console.log("Qish");
+    break;
+  case 3:
+  case 4:
+  case 5:
+    console.log("Bahor");
+    break;
+  case 6:
+  case 7:
+  case 8:
+    console.log("Yoz");
+    break;
+  case 9:
+  case 10:
+  case 11:
+    console.log("Kuz");
+    break;
+  default:
+    console.log("Xato oy raqami kiritildi");
+}
 //3. Kabisa yili (Mantiqiy operatorlar)
 //Yil kiritiladi (masalan: 2024). Agar yil 4 ga bo'linsa va 100 ga bo'linmasa, YOKI 400 ga bo'linsa — "Kabisa yili", aks holda "Oddiy yil" deb chiqsin.
 
