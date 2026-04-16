@@ -34,34 +34,37 @@
 //2. Fasllar (Switch case grouping)
 //Oy raqami kiritilganda (1-12) qaysi fasl ekanligini aniqlang.
 //Namuna: 12, 1, 2 bo'lsa — "Qish"; 3, 4, 5 bo'lsa — "Bahor" va hokazo.
-let son = +prompt("oy raqamini kiriting");
-switch (son) {
-  case 12:
-  case 1:
-  case 2:
-    console.log("Qish");
-    break;
-  case 3:
-  case 4:
-  case 5:
-    console.log("Bahor");
-    break;
-  case 6:
-  case 7:
-  case 8:
-    console.log("Yoz");
-    break;
-  case 9:
-  case 10:
-  case 11:
-    console.log("Kuz");
-    break;
-  default:
-    console.log("Xato oy raqami kiritildi");
-}
+//let son = +prompt("oy raqamini kiriting");
+//switch (son) {
+//case 12:
+//case 1:
+//case 2:
+//  console.log("Qish");
+//  break;
+//case 3:
+//case 4:
+// case 5:
+//   console.log("Bahor");
+//   break;
+// case 6:
+// case 7:
+// case 8:
+//   console.log("Yoz");
+//   break;
+// case 9:
+// case 10:
+// case 11:
+//   console.log("Kuz");
+//   break;
+// default:
+//  console.log("Xato oy raqami kiritildi");}
+//========================================
 //3. Kabisa yili (Mantiqiy operatorlar)
 //Yil kiritiladi (masalan: 2024). Agar yil 4 ga bo'linsa va 100 ga bo'linmasa, YOKI 400 ga bo'linsa — "Kabisa yili", aks holda "Oddiy yil" deb chiqsin.
-
+//let yil = +prompt("yilni kiriting");
+//if ((yil % 4 === 0 && yil % 100 !== 0) || yil % 400 === 0) {
+// console.log("Kabisa yili");}
+// // else {console.log("oddiy yil");}
 //4. Kattasini aniqlash (Ternary)
 //Ikkita a va b sonlari berilgan. ternary operatoridan foydalanib, ularning kattasini max degan o'zgaruvchiga o'zlashtiring.
 
