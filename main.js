@@ -75,18 +75,24 @@
 //==========================================
 //5. Juft yoki Toq (Ternary)
 //Berilgan sonning juft yoki toqligini bitta satrda aniqlang va natijani konsolga chiqaring.
-let son = +prompt("son kiriting");
-let natija = son % 2 === 0 ? "juft" : "toq";
-console.log(natija);
-
+//let son = +prompt("son kiriting");
+//let natija = son % 2 === 0 ? "juft" : "toq";
+//console.log(natija);
+//===========================================
 //6. Supermarket chegirmasi (If + Logical)
 //Xarid summasi va foydalanuvchida kupon bor-yo'qligi (true/false) beriladi.
-
 //Agar summa 100,000 dan katta VA kupon bo'lsa — "20% chegirma".
-
 //Agar faqat summa 100,000 dan katta bo'lsa — "5% chegirma".
-
 //Aks holda — "Chegirma yo'q".
+let summa = +prompt("xarid summasini kiriting");
+let kupon = prompt("kuponingiz bormi?(true/false)") === "true";
+if (summa > 100000 && kupon) {
+  console.log("20% chegirma");
+} else if (summa > 100000) {
+  console.log("5% chegirma");
+} else {
+  console.log("Chegirma yoq");
+}
 
 //7. Hafta kuni (Switch)
 //1 dan 7 gacha son kiritilganda haftaning mos kunini chiqaring. 6 va 7 raqamlari uchun qo'shimcha ravishda "Dam olish kuni" yozuvi ham chiqsin.
