@@ -1,0 +1,79 @@
+//1. Baholash tizimi (Switch)
+//Foydalanuvchi 1 dan 5 gacha son kiritadi. Shu songa mos ravishda natijani chiqaring:
+
+//1 — "Yomon"
+
+//2 — "Qoniqarsiz"
+
+//3 — "Qoniqarli"
+
+//4 — "Yaxshi"
+
+//5 — "A'lo"
+//Default: "Xato ball kiritildi"
+let ball = +prompt("bahoyingizni kiriting");
+switch (ball) {
+  case 1:
+    console.log("Yomon");
+    break;
+  case 2:
+    console.log("Qoniqarsiz");
+    break;
+  case 3:
+    console.log("Qoniqarli");
+    break;
+  case 4:
+    console.log("Yaxshi");
+    break;
+  case 5:
+    console.log("Alo");
+    break;
+  default:
+    console.log("Xato ball kiritildi");
+}
+//2. Fasllar (Switch case grouping)
+//Oy raqami kiritilganda (1-12) qaysi fasl ekanligini aniqlang.
+
+//Namuna: 12, 1, 2 bo'lsa — "Qish"; 3, 4, 5 bo'lsa — "Bahor" va hokazo.
+
+//3. Kabisa yili (Mantiqiy operatorlar)
+//Yil kiritiladi (masalan: 2024). Agar yil 4 ga bo'linsa va 100 ga bo'linmasa, YOKI 400 ga bo'linsa — "Kabisa yili", aks holda "Oddiy yil" deb chiqsin.
+
+//4. Kattasini aniqlash (Ternary)
+//Ikkita a va b sonlari berilgan. ternary operatoridan foydalanib, ularning kattasini max degan o'zgaruvchiga o'zlashtiring.
+
+//5. Juft yoki Toq (Ternary)
+//Berilgan sonning juft yoki toqligini bitta satrda aniqlang va natijani konsolga chiqaring.
+
+//6. Supermarket chegirmasi (If + Logical)
+//Xarid summasi va foydalanuvchida kupon bor-yo'qligi (true/false) beriladi.
+
+//Agar summa 100,000 dan katta VA kupon bo'lsa — "20% chegirma".
+
+//Agar faqat summa 100,000 dan katta bo'lsa — "5% chegirma".
+
+//Aks holda — "Chegirma yo'q".
+
+//7. Hafta kuni (Switch)
+//1 dan 7 gacha son kiritilganda haftaning mos kunini chiqaring. 6 va 7 raqamlari uchun qo'shimcha ravishda "Dam olish kuni" yozuvi ham chiqsin.
+
+//8. Kirish huquqi (Complex Logic)
+//Foydalanuvchi yoshi va yonida ota-onasi borligi haqida ma'lumot berilgan.
+
+//Agar yoshi >= 18 bo'lsa — "Ruxsat berildi".
+
+//Agar yoshi < 18 bo'lsa va ota-onasi bilan bo'lsa — "Faqat ota-ona bilan ruxsat".
+
+//Aks holda — "Ruxsat berilmadi".
+
+//9. Sonning holati (If else chain)
+//Berilgan sonning musbat, manfiy yoki nolga tengligini aniqlang.
+
+//10. Type Checker (Switch + typeof)
+//O'zgaruvchining turini (type) tekshiring.
+
+//Agar number bo'lsa — "Son kiritdingiz".
+
+//Agar string bo'lsa — "Matn kiritdingiz".
+
+//Agar boolean bo'lsa — "Mantiqiy qiymat".
