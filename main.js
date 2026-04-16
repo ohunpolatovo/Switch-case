@@ -84,30 +84,61 @@
 //Agar summa 100,000 dan katta VA kupon bo'lsa — "20% chegirma".
 //Agar faqat summa 100,000 dan katta bo'lsa — "5% chegirma".
 //Aks holda — "Chegirma yo'q".
-let summa = +prompt("xarid summasini kiriting");
-let kupon = prompt("kuponingiz bormi?(true/false)") === "true";
-if (summa > 100000 && kupon) {
-  console.log("20% chegirma");
-} else if (summa > 100000) {
-  console.log("5% chegirma");
-} else {
-  console.log("Chegirma yoq");
-}
+//let summa = +prompt("xarid summasini kiriting");
+//let kupon = prompt("kuponingiz bormi?(true/false)") === "true";
+//if (summa > 100000 && kupon) { console.log("20% chegirma");}//
+//  else if (summa > 100000) {console.log("5% chegirma");}
+// else { console.log("Chegirma yoq");}
 
 //7. Hafta kuni (Switch)
 //1 dan 7 gacha son kiritilganda haftaning mos kunini chiqaring. 6 va 7 raqamlari uchun qo'shimcha ravishda "Dam olish kuni" yozuvi ham chiqsin.
-
+//let kun = +prompt("hafta kunlarini kiriting");
+//switch (kun) {
+// case 1:
+//   console.log("dushanba");
+//  break;
+//case 2:
+// console.log("seshanba ");
+//  break;
+// case 3:
+//   console.log("chorshanba ");
+//    break;
+//  case 4:
+//   console.log("payshanba ");
+//   break;
+//  case 5:
+//   console.log("juma ");
+//   break;
+// case 6:
+//   console.log("shanba ");
+//   break;
+//  case 7:
+//   console.log("yakshanba ");
+//  break;
+// default:
+//   console.log("hato kunni kiritdingiz");}
+//==========================================
 //8. Kirish huquqi (Complex Logic)
 //Foydalanuvchi yoshi va yonida ota-onasi borligi haqida ma'lumot berilgan.
-
 //Agar yoshi >= 18 bo'lsa — "Ruxsat berildi".
-
 //Agar yoshi < 18 bo'lsa va ota-onasi bilan bo'lsa — "Faqat ota-ona bilan ruxsat".
-
 //Aks holda — "Ruxsat berilmadi".
-
+//let yosh = +prompt("yoshingizni kiriting");
+//let otaOnaBorligi = prompt("ota-onasi bilan bormi?(true/false)") === "true";
+//let ruxsat =
+//  yosh >= 18
+//   ? "ruxsat berildi"
+//    : yosh < 18 && otaOnaBorligi
+//      ? "faqat ota ona bilan ruxsat"
+//      : "ruxsat berilmadi";
+//console.log(ruxsat);
+//==========================================
 //9. Sonning holati (If else chain)
 //Berilgan sonning musbat, manfiy yoki nolga tengligini aniqlang.
+let son = +prompt("son kiriting");
+if (son > 0) console.log("musbat son");
+else if (son < 0) console.log("manfiy son");
+else console.log("son nolga teng");
 
 //10. Type Checker (Switch + typeof)
 //O'zgaruvchining turini (type) tekshiring.
