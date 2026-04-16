@@ -65,11 +65,19 @@
 //if ((yil % 4 === 0 && yil % 100 !== 0) || yil % 400 === 0) {
 // console.log("Kabisa yili");}
 // // else {console.log("oddiy yil");}
+//==========================================
 //4. Kattasini aniqlash (Ternary)
 //Ikkita a va b sonlari berilgan. ternary operatoridan foydalanib, ularning kattasini max degan o'zgaruvchiga o'zlashtiring.
-
+//let a = +prompt("son kiriting");
+//let b = +prompt("son kiriting");
+//let max = a > b ? a : b;
+//console.log(max);
+//==========================================
 //5. Juft yoki Toq (Ternary)
 //Berilgan sonning juft yoki toqligini bitta satrda aniqlang va natijani konsolga chiqaring.
+let son = +prompt("son kiriting");
+let natija = son % 2 === 0 ? "juft" : "toq";
+console.log(natija);
 
 //6. Supermarket chegirmasi (If + Logical)
 //Xarid summasi va foydalanuvchida kupon bor-yo'qligi (true/false) beriladi.
